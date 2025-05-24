@@ -1,0 +1,18 @@
+ECU Signature Modulo Replacement Report
+================================================================================
+RSA Modulo (160 bytes): f0fb3144386f8cfed511f52286fb0502c0f430f816ffd7aaec0ad0ae034ec52509bdf0e2299fab3032266f5d47ecb16bde63aafec7315d76587aa03382c21c9936792f796c6bd1d04216ac99ee891d08e3f0ed1caf2401d38a2bc761f18e993d73494cd41ca636e24a41981551570a2acb3976ae9654d5d218fd728845ef034d8ff8a5fec464be19147ad2cd3a3f88a35e1c23ea04613d58ea03c3718e02df13
+
+File Processing Summary:
+------------------------------------------------------------------------------------------------------------------------
+Filename                                 Type                      Status     Size            Modulo     Calibration Error
+------------------------------------------------------------------------------------------------------------------------
+program_download_request_1_70100000.bin  Other Download Request    Success    2304/2304 ✓                           None
+program_download_request_2_a0020000.bin  Request Download 2        Success    262080/262080 ✓                       None
+program_download_request_3_a00c0000.bin  Request Download 3        Success    262080/262080 ✓ ✓                     None
+program_download_request_4_70100000.bin  Other Download Request    Success    2304/2304 ✓                           None
+program_download_request_5_a00c0000.bin  Request Download 5        Success    1834944/1834944 ✓ ✗          ✓          None
+program_download_request_6_a0080000.bin  Other Download Request    Success    262080/262080 ✓                       None
+
+Final Status:
+--------------------------------------------------------------------------------
+COMPLETE SUCCESS - All files processed correctly
