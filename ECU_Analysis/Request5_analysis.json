@@ -1,0 +1,9 @@
+{
+    "name": "Request5",
+    "filepath": "D:\\Shehrayar Romi\\ECU-Reverse-Flasher\\tts\\program_download_request_5_a00c0000.bin",
+    "size": 1834944,
+    "sha256": "5c4d08ff194cc681da1a1288d639b7b8f46685a96b9c518e2ae4db86d21595a2",
+    "entropy": 4.138394397641446,
+    "strings": "Strings extraction skipped (tool not found).",
+    "binwalk": "Binwalk analysis skipped (tool not found)."
+}

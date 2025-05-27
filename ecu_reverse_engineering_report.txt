@@ -1,0 +1,20 @@
+ECU Request Download Reverse Engineering Report
+================================================================================
+Generated using Ghidra static analysis
+
+1. Executive Summary
+--------------------------------------------------------------------------------
+This report details the reverse engineering of critical ECU request downloads.
+Analysis focused on memory operations and cryptographic functions.
+
+3. Critical Modulo Handling
+--------------------------------------------------------------------------------
+Request2: Initial validation and loading
+Request3: Contains direct modulo replacement at 0x4790
+Request5: Implements calibration strategy with signature checks
+
+4. Recommended Modifications
+--------------------------------------------------------------------------------
+- Patch Request3 at 0x8B30 to bypass signature checks
+- Modify Request5's calibration verification at 0xC1F40
+- Update all checksums after modifications

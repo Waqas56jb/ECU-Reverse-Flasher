@@ -1,1 +1,4 @@
-pycryptodome==3.20.0
+numpy>=1.21.0
+pycryptodome>=3.10.1
+
+# C:\Users\S\Downloads\ghidra_v10.0.1\ghidra_10.0.1_PUBLIC
